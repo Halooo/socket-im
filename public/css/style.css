@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+form {
+  background: #fff;
+  padding: 3px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+form input {
+  /*-webkit-box-shadow: 0 0 3px #a1ff85;*/
+  /*-moz-box-shadow: 0 0 3px #a1ff85;*/
+  /*box-shadow: 0 0 3px #a1ff85;*/
+  border: 1px solid #c1eeff;
+  padding: 10px;
+  width: 90%;
+  margin-right: .5%;
+}
+form input:focus {
+  border: 1px solid #c1eeff;
+  padding: 10px;
+  width: 90%;
+  margin-right: .5%;
+}
+
+form button {
+  width: 9%;
+  background: rgb(193, 238, 255);
+  border: none;
+  padding: 10px;
+}
+
+#msger {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#msger li {
+  padding: 5px 10px;
+}
+
+#msger li:nth-child(odd) {
+  background: #eee;
+}

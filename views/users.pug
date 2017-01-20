@@ -1,0 +1,18 @@
+//
+   Created by haos on 20/01/2017.
+
+doctype html
+html
+    head
+        title= title
+        link(rel="stylesheet", href="/css/style.css")
+
+    body
+        h1= title
+        ul#msger
+            form(action="" autocomplete="off")
+                input#msgbar(autocomplete="off")
+                button send2
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+        script(src="/socket.io/socket.io.js")
+        script(src="/js/messager.js")
